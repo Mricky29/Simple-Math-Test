@@ -1,0 +1,18 @@
+//For this update, we include 4 simple math questions and returm its sum
+// in the end we give you a score and let the user know if they pass or failed
+//Problem to fix: On this exam, anyone can pass by just adding any number greater than 70
+
+a = int(input('What is 2*10 '))
+b = int(input('What is 5+5 '))
+c = int(input('What is 46-16 '))
+d = int(input('What is 800/20 '))
+
+total = int(a + b + c + d)
+
+print("Your total score is " + str(total))
+
+
+if total < 70:
+    print("Sorry! you failed :-(")
+else:
+    print("Congratulation! You pass")
