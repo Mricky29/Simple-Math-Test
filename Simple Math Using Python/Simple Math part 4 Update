@@ -1,0 +1,30 @@
+//This update turn the test more into a exam and also gives you a grade depending on the performace
+
+print("EXAM 1")
+
+a = int(input('What is 2*10 '))
+if a !=20:
+    a = 0
+b = int(input('What is 5+5 '))
+if b !=10:
+    b=0
+c = int(input('What is 46-16 '))
+if c !=30:
+    c = 0
+d = int(input('What is 800/20 '))
+if d != 40:
+    d = 0
+
+total = int(a + b + c + d)
+
+print("Your total score is " + str(total))
+
+
+if  70 > total < 80:
+    print("Sorry! you failed!!. Did you even study!!!")
+elif 80 > total < 90:
+    print("Congratulation!! You passed, but you could've done better")
+elif 90 > total < 100:
+    print("Well done!! you did great!!")
+else:
+    print("Congratulation! You are a Genius!!")
